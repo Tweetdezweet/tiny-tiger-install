@@ -3,7 +3,7 @@
 ################################################################################################################################
 ####					Installing Git with apt								                                                                        ####
 ###############################################################################################################################
-sudo apt-get install -y git
+#sudo apt-get install -y git
 
 ################################################################################################################################
 ####					Installing Filezilla with apt								                                                                  ####
@@ -14,14 +14,15 @@ sudo apt-get install -y filezilla
 ################################################################################################################################
 ####					Installing MySQL Workbench with apt					                                                               		####
 ###############################################################################################################################
-sudo apt-get install -y mysql-workbench-community
+#https://dev.mysql.com/downloads/file/?id=500620 -> install deb from here
+#sudo snap install mysql-workbench-community
 
 
 ################################################################################################################################
 ####					Installing PhpStorm as a snap package							                                                           ####
 ###############################################################################################################################
 
-sudo snap install phpstorm-classic
+sudo snap install phpstorm --classic
 
 
 ################################################################################################################################
@@ -30,4 +31,5 @@ sudo snap install phpstorm-classic
 
 ## get file from: https://cdn.localwp.com/releases-stable/5.9.8+5191/local-5.9.8-linux.deb
 
-wget -qO - https://cdn.localwp.com/releases-stable/5.9.8+5191/local-5.9.8-linux.deb | sudo apt install -y -
+## TODO test this command:
+#wget -qO - https://cdn.localwp.com/releases-stable/5.9.8+5191/local-5.9.8-linux.deb | sudo apt install -y -
